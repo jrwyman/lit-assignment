@@ -1,0 +1,100 @@
+.App {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  font-size: 30px;
+  text-align: center;
+}
+
+textarea {
+  resize: both;
+}
+
+.classified {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px 5px 15px;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 15px 0px 15px 0px;
+  width: 800px;
+  /* align-items: center; */
+}
+
+.classified-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.classified-body {
+  display: flex;
+  align-self: center;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 20px;
+  white-space: pre-wrap;
+  width: 550px;
+  word-wrap: break-word;
+}
+
+.classified-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.classified-type {
+  font-weight: bold;
+}
+
+.shipping-info {
+  display: flex;
+  margin-top: 50px;
+}
+
+.shipping-tag {
+  margin-right: 10px;
+}
+
+.shipping-radio {
+  margin: 0px 10px 0px 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+}
+.tags-checkbox {
+  margin: 50px 10px 0px 0px;
+}
+
+.classified-tags {
+  display: flex;
+  justify-content: space-around;
+}
+
+.classified-tag {
+  font-weight: bold;
+}
+
+.body-info {
+  margin-top: 50px;
+}
+
+.classified-image {
+  display: flex;
+  max-width: 300px;
+  max-height: 300px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.modal-1-errors {
+  margin-top: 20px;
+  color: red;
+}
